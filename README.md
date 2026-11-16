@@ -6,7 +6,7 @@ se trouvent dans une zone d'intérêt définie par l'utilisateur.
 
 Il a été testé sur une vidéo filmée sur le boulevard Mohammed VI, à Khouribga.
 
-![Tableau de bord](assets/dashboard.png)
+![Démonstration du pipeline](assets/demo.gif)
 
 ## Fonctionnalités
 
