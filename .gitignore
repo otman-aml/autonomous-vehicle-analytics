@@ -1,0 +1,97 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================
+# Données lourdes (à exclure du repo)
+# ============================================
+# Modèles YOLO (auto-téléchargés par Ultralytics)
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+
+# Vidéos (sauf la démo courte)
+data/*.mp4
+!data/demo_short.mp4
+outputs/*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Images lourdes (sauf assets de démo)
+*.jpg
+*.jpeg
+*.png
+!assets/*.png
+!assets/*.jpg
+
+# Dossiers de sortie
+outputs/*
+!outputs/.gitkeep
+
+# ============================================
+# OS / IDE
+# ============================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# Logs / temporaires
+# ============================================
+*.log
+logs/
+*.tmp
+*.bak
+.cache/
+
+# ============================================
+# Secrets (sécurité)
+# ============================================
+.env
+.env.*
+!.env.example
+secrets.json
+*.key
+*.pem
